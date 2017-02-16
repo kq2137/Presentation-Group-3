@@ -8,7 +8,7 @@ div.title{
 }
 
 h1{
-	color: #000000;
+    color: #000000;
     font-weight: 400;
     font-size: 2.5em;
     max-width: 800px;
@@ -24,7 +24,7 @@ h2{
 }
 
 h3{
-	font-size: 1.25em;
+    font-size: 1.25em;
     font-weight: 300;
     max-width: 800px;
     text-align: center;
@@ -42,7 +42,7 @@ div.bio{
 }
 
 img.bioImage{
-    width: 40%;
+    width: 80%;
     margin: auto;
     display: block;
 }
@@ -59,6 +59,23 @@ p.bioText > a{
 
 p.bioText > a:hover{
     background-color: #FFFF00; 
+}
+
+img.limitImage{
+    width: 80%;
+    margin: auto;
+}
+
+img.multicol3Image{
+    width: 30%;
+    margin: auto;
+    display: inline-block;
+}
+
+img.multicol2Image{
+    width: 45%;
+    margin: auto;
+    display: inline-block;
 }
 
 div.linkList{
@@ -80,4 +97,50 @@ li.assignmentLink > a{
 
 li.assignmentLink > a:hover{
     background-color: #FFFF00; 
+}
+
+/*  I grabbed the responsive column css info from www.responsivegridsystem.com, in case anyone was wondering  */
+/*  SECTIONS  */
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+    display: block;
+    float:left;
+    margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF TWO COLUMNS  */
+.span_2_of_2 {
+    width: 100%;
+}
+.span_1_of_2 {
+    width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .col { margin: 1% 0 1% 0%;}
+    .span_2_of_2, .span_1_of_2 { width: 100%; }
 }
