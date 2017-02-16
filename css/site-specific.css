@@ -9,7 +9,7 @@ div.title{
 }
 
 h1{
-    color: #969494 !important;
+    color: #605f5f !important;
     font-weight: 400;
     font-size: 2.5em;
     max-width: 800px;
@@ -21,14 +21,12 @@ h1{
 }
 
 h2{
-    color: #969494;
-    color: inherit;
+    color: #757575 !important;
     text-align: center;
 }
 
 h3{
-    color:#f7f7f2;
-    color: inherit;
+    color:#757575 !important;
     font-size: 1.25em;
     font-weight: 300;
     max-width: 800px;
@@ -59,7 +57,7 @@ p.bioText{
 }
 
 p.bioText > a{
-    color: #f7f7f2;
+    color: #757575 !important;
     color: inherit;
 }
 
