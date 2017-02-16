@@ -23,11 +23,13 @@ h1{
 
 h2{
     color: #f7f7f2;
+    color: inherit;
     text-align: center;
 }
 
 h3{
     color: #f7f7f2;
+    color: inherit;
     font-size: 1.25em;
     font-weight: 300;
     max-width: 800px;
@@ -59,6 +61,7 @@ p.bioText{
 
 p.bioText > a{
     color: #f7f7f2;
+    color: inherit;
 }
 
 p.bioText > a:hover{
