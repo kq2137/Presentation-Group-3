@@ -10,7 +10,6 @@ div.title{
 
 h1{
     color: #969494;
-    color: inherit;
     font-weight: 400;
     font-size: 2.5em;
     max-width: 800px;
@@ -22,7 +21,7 @@ h1{
 }
 
 h2{
-    color: #f7f7f2;
+    color: #969494;
     color: inherit;
     text-align: center;
 }
