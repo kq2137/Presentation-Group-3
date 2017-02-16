@@ -1,0 +1,30 @@
+What are the limitations of the project?
+-	the predicted “stolen years” are  based on the dataset of 2005, while the death data is from 2010 and 2013
+-	the death data in 2013 is from the social media of Twitter
+-	the death data includes the date and the location, but only showed in text instead of  graphs
+-	some victims’ age of death is unknown in 2013 (grey curves)      
+	[1.png]
+
+
+Does it achieve everything it set out to?
+No
+-	the amount of curves is not visually accurate correlated to the percentage of victims unless it reaches the ratio less than 3%/97%
+	[2.png] [3.png]
+
+
+PROS:
+-	showing floating text boxes for explanation when hovering over the graphs
+	[4.png]
+-	providing multiple combination of filters
+	[5.png]
+-	2 types of graphs(the interactive visualization & the curve chart) to show the data
+	[6.png]	[7.png]
+-	clicking the curve can lead to the link of the news of the death(some links are expired though)
+	[news1.png] [news2.png] [news3.png]
+
+
+CONS:
+-	no legend to explain the gradient yellow color of curves (to make the overlapping curves legible)
+	[8.png]
+-	hard to compare the graphs among different filters to get further conclusion
+-	using ambiguous words - “People Killed” & “Stolen Years” - cheat the readers   (2010 Homicide/ 2013 Suicide+Homicide)
